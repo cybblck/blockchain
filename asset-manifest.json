@@ -1,0 +1,39 @@
+{
+  "files": {
+    "main.css": "/blockchain/static/css/main.3964c87d.css",
+    "main.js": "/blockchain/static/js/main.f2aaf25d.js",
+    "static/js/787.fb771931.chunk.js": "/blockchain/static/js/787.fb771931.chunk.js",
+    "static/media/color-sharp.png": "/blockchain/static/media/color-sharp.bea361cfef80fefc2d1e.png",
+    "static/media/color-sharp2.png": "/blockchain/static/media/color-sharp2.c87586c6c2f549cb4aa6.png",
+    "static/media/banner-bg.png": "/blockchain/static/media/banner-bg.cc1273af450504afe755.png",
+    "static/media/header-img.svg": "/blockchain/static/media/header-img.400baa4260daac98f2b2b1ccf08761c2.svg",
+    "static/media/CentraNo2-Bold.ttf": "/blockchain/static/media/CentraNo2-Bold.2faff7f7d3fc92a2fcd9.ttf",
+    "static/media/CentraNo2-Medium.ttf": "/blockchain/static/media/CentraNo2-Medium.f94be5b326d78bb32b95.ttf",
+    "static/media/CentraNo2-Book.ttf": "/blockchain/static/media/CentraNo2-Book.2b143fa4b734a3584043.ttf",
+    "static/media/blockchain_asset1.jpg": "/blockchain/static/media/blockchain_asset1.ed474f8c31973059060e.jpg",
+    "static/media/footer-bg.png": "/blockchain/static/media/footer-bg.7bd67c0f73571d0acc02.png",
+    "static/media/project-img3.png": "/blockchain/static/media/project-img3.675b30d2f975a1bc1d09.png",
+    "static/media/contact-img.svg": "/blockchain/static/media/contact-img.62aa99e0f3b968b5d1ce9eb047f34fc7.svg",
+    "static/media/ethereum-logo-square-black.png": "/blockchain/static/media/ethereum-logo-square-black.153294d42f1f967fb70a.png",
+    "static/media/hyperledger-logo-square-official.png": "/blockchain/static/media/hyperledger-logo-square-official.5b8d8dbc026117f075b2.png",
+    "static/media/algorand_square_logo_black-official.png": "/blockchain/static/media/algorand_square_logo_black-official.53acac5b4faa0576304c.png",
+    "static/media/blockchain_asset2.png": "/blockchain/static/media/blockchain_asset2.d03daa6546ca34409f28.png",
+    "static/media/revicons.eot": "/blockchain/static/media/revicons.a77de540a38981833f9e.eot",
+    "static/media/revicons.ttf": "/blockchain/static/media/revicons.57fd05d4ae650374c8de.ttf",
+    "static/media/revicons.woff": "/blockchain/static/media/revicons.e8746a624ed098489406.woff",
+    "static/media/logo.svg": "/blockchain/static/media/logo.3c6c479cfa1d154dbfccd4d5f91320f4.svg",
+    "static/media/nav-icon3.svg": "/blockchain/static/media/nav-icon3.72cef43bc93b04f52e29f022ef720f8b.svg",
+    "index.html": "/blockchain/index.html",
+    "static/media/nav-icon1.svg": "/blockchain/static/media/nav-icon1.dff40ae802524d8fc0cbce3f312abe4f.svg",
+    "static/media/arrow2.svg": "/blockchain/static/media/arrow2.b3d03e1b04ec1904a5658aea5776433c.svg",
+    "static/media/arrow1.svg": "/blockchain/static/media/arrow1.1088f8313e5637897aff2414e5938141.svg",
+    "static/media/nav-icon2.svg": "/blockchain/static/media/nav-icon2.a39f0e5e47e442dafcc5c9c320f19f6f.svg",
+    "main.3964c87d.css.map": "/blockchain/static/css/main.3964c87d.css.map",
+    "main.f2aaf25d.js.map": "/blockchain/static/js/main.f2aaf25d.js.map",
+    "787.fb771931.chunk.js.map": "/blockchain/static/js/787.fb771931.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3964c87d.css",
+    "static/js/main.f2aaf25d.js"
+  ]
+}
