@@ -11,33 +11,33 @@ export const Projects = () => {
 
   const projects = [
     {
-      title: "Business Startup",
-      description: "Design & Development",
+      title: "Blockchain Introductory Program",
+      // description: "Design & Development",
       imgUrl: projImg1,
     },
     {
-      title: "Business Startup",
-      description: "Design & Development",
+      title: "Certified Ethereum Developer Program",
+      // description: "Design & Development",
       imgUrl: projImg2,
     },
     {
-      title: "Business Startup",
-      description: "Design & Development",
+      title: "Deep Dive Into Decentralized Finance(DEFI)",
+      // description: "Design & Development",
       imgUrl: projImg3,
     },
     {
-      title: "Business Startup",
-      description: "Design & Development",
+      title: "Faculty Development Programs",
+      // description: "Design & Development",
       imgUrl: projImg1,
     },
     {
-      title: "Business Startup",
-      description: "Design & Development",
+      title: "Blockchain Center of Excellence",
+      // description: "Design & Development",
       imgUrl: projImg2,
     },
     {
-      title: "Business Startup",
-      description: "Design & Development",
+      title: "Demo",
+      // description: "Design & Development",
       imgUrl: projImg3,
     },
   ];
