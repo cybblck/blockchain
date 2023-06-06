@@ -68,12 +68,15 @@ export const NavBar = () => {
 <<<<<<< HEAD
 >>>>>>> dc4c09f (navbar)
 
+<<<<<<< HEAD
 =======
 =======
 
 >>>>>>> 89172d6 (nav)
               
 >>>>>>> 4049609 (navbar)
+=======
+>>>>>>> 5cdbd56 (pull)
             </Nav>
             <span className="navbar-text">
               <div className="social-icon">
