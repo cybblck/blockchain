@@ -48,6 +48,7 @@ export const NavBar = () => {
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="ms-auto">
               <Nav.Link href="#home" className={activeLink === 'home' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('home')}>Home</Nav.Link>
+<<<<<<< HEAD
               <Nav.Link href="#blog" className={activeLink === 'blog' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('blog')}>Services</Nav.Link>
               <Nav.Link href="#blog" className={activeLink === 'blog' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('blog')}>Expertise</Nav.Link>
               <Nav.Link href="#event" className={activeLink === 'event' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('event')}>Events</Nav.Link>
@@ -58,6 +59,12 @@ export const NavBar = () => {
               <Nav.Link href="#team" className={activeLink === 'team' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('about')}>Team</Nav.Link>
 
               <Nav.Link href="#contact" className={activeLink === 'contact' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('contact')}>Contact us</Nav.Link>
+=======
+              <Nav.Link href="#about" className={activeLink === 'about' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('about')}>Services</Nav.Link>
+              <Nav.Link href="#blog" className={activeLink === 'blog' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('blog')}>Expertise</Nav.Link>
+              <Nav.Link href="#contact" className={activeLink === 'contact' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('contact')}>About us</Nav.Link>
+              <Nav.Link href="#contact" className={activeLink === 'contact' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('contact')}>Contact Us</Nav.Link>
+>>>>>>> dc4c09f (navbar)
 
             </Nav>
             <span className="navbar-text">
@@ -66,9 +73,15 @@ export const NavBar = () => {
                 <a href="#"><img src={navIcon2} alt="" /></a>
                 <a href="#"><img src={navIcon3} alt="" /></a>
               </div>
+<<<<<<< HEAD
               {/* <HashLink to='#connect'>
                 <button className="vvd"><span>Login</span></button>
               </HashLink> */}
+=======
+              <HashLink to='#connect'>
+                <button className="vvd"><span>Revolutionising Blockchain</span></button>
+              </HashLink>
+>>>>>>> dc4c09f (navbar)
             </span>
           </Navbar.Collapse>
         </Container>
