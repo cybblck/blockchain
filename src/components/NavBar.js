@@ -64,8 +64,12 @@ export const NavBar = () => {
               <Nav.Link href="#blog" className={activeLink === 'blog' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('blog')}>Expertise</Nav.Link>
               <Nav.Link href="#contact" className={activeLink === 'contact' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('contact')}>About us</Nav.Link>
               <Nav.Link href="#contact" className={activeLink === 'contact' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('contact')}>Contact Us</Nav.Link>
+<<<<<<< HEAD
 >>>>>>> dc4c09f (navbar)
 
+=======
+              
+>>>>>>> 4049609 (navbar)
             </Nav>
             <span className="navbar-text">
               <div className="social-icon">
