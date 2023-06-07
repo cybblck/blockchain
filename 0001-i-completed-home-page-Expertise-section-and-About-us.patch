@@ -1,0 +1,81 @@
+From 15b34aa3e2957aee31aff69e428494b1f6cdbf81 Mon Sep 17 00:00:00 2001
+From: jainrishabh2310 <109258106+jainrishabh2310@users.noreply.github.com>
+Date: Wed, 7 Jun 2023 11:10:22 +0000
+Subject: [PATCH 1/2]  i completed home page,Expertise section and About us
+ section and set all the images. now remaining is services sections page and
+ some changes in contact us section.
+
+---
+ src/components/Skills.js | 43 +++++++++++++++++++++++++++++++++++++++-
+ 1 file changed, 42 insertions(+), 1 deletion(-)
+
+diff --git a/src/components/Skills.js b/src/components/Skills.js
+index 18776fb..3452006 100644
+--- a/src/components/Skills.js
++++ b/src/components/Skills.js
+@@ -1,4 +1,6 @@
+ import meter1 from "../assets/img/polygon-logo-square-official.png";
++import { Container, Row, Col, Tab, Nav } from "react-bootstrap";
++
+ import meter2 from "../assets/img/hyperledger-logo-square-official.png";
+ import meter3 from "../assets/img/ethereum-logo-square-black.png";
+ import meter4 from "../assets/img/algorand_square_logo_black-official.png";
+@@ -35,8 +37,11 @@ export const Skills = () => {
+             <div className="row">
+                 <div className="col-12">
+                     <div className="skill-bx wow zoomIn">
+-                        <h2>Looking To Upskill Your Workforce?</h2>
++                        <h2>About Us</h2>
+                         <p>WE SPECIALIZE IN</p>
++
++
++
+                         <Carousel responsive={responsive} infinite={true} className="owl-carousel owl-theme skill-slider">
+                             <div className="item">
+                                 <img src={meter1} alt="Image" />
+@@ -55,6 +60,42 @@ export const Skills = () => {
+                                 <h5>Algorand</h5>
+                             </div>
+                         </Carousel>
++
++                        <Tab.Container id="projects-tabs" defaultActiveKey="first">
++                  <Nav variant="pills" className="nav-pills mb-5 justify-content-center align-items-center" id="pills-tab">
++                    <Nav.Item>
++                    </Nav.Item>
++                    <Nav.Item>
++                      <Nav.Link eventKey="second">Tab 2</Nav.Link>
++                      <Nav.Link eventKey="first">Events</Nav.Link>
++                    </Nav.Item>
++                    <Nav.Item>
++                      <Nav.Link eventKey="third">Tab 3</Nav.Link>
++                    </Nav.Item>
++                  </Nav>
++                  <Tab.Content id="slideInUp" className={isVisible ? "animate__animated animate__slideInUp" : ""}>
++                    <Tab.Pane eventKey="first">
++                      <Row>
++                        {
++                          projects.map((project, index) => {
++                            return (
++                              <ProjectCard
++                                key={index}
++                                {...project}
++                                />
++                            )
++                          })
++                        }
++                      </Row>
++                    </Tab.Pane>
++                    <Tab.Pane eventKey="second">
++                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque quam, quod neque provident velit, rem explicabo excepturi id illo molestiae blanditiis, eligendi dicta officiis asperiores delectus quasi inventore debitis quo.</p>
++                    </Tab.Pane>
++                    <Tab.Pane eventKey="third">
++                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque quam, quod neque provident velit, rem explicabo excepturi id illo molestiae blanditiis, eligendi dicta officiis asperiores delectus quasi inventore debitis quo.</p>
++                    </Tab.Pane>
++                  </Tab.Content>
++                </Tab.Container>
+                         {/* <h2>Learn. Execute. Master.</h2>
+                         <p>Indian Blockchain Institute (IBI), the training division of Snapper Future Tech was founded with the primary goal of developing a productive and efficient Blockchain talent pool for the industry. With this goal in mind, IBI provides an entire ecosystem for upskilling in Blockchain through its range of training services for individuals, corporates, and academic institutions.
+ Our training offerings include NASSCOM accredited programs, tailored corporate programs, setting up a Blockchain Centre of Excellence, and faculty development programmes for academic institutions. Our experts are proficient in a variety of blockchain frameworks, including Ethereum, Hyperledger, Algorand, and Polygon. We are one of the few authorised Service Providers and Training Partners of Hyperledger in the entire world.</p> */}
+-- 
+2.40.1
+
