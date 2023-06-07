@@ -13,7 +13,7 @@ export const Team = () => {
 
   const team = [
     {
-      title: "Blockchain Introductory Program",
+      title: "Dr. Amit Kumar Vishwakarma<br>Director<br>IIT Kanpur, Tsinghua University Beijing",
       // description: "Design & Development",
       imgUrl: projImg1,
     },
@@ -55,17 +55,7 @@ export const Team = () => {
                 <h2>Our Team</h2>
                 <Tab.Container id="projects-tabs" defaultActiveKey="first">
                   <Nav variant="pills" className="nav-pills mb-5 justify-content-center align-items-center" id="pills-tab">
-                    {/* <Nav.Item>
-                      <Nav.Link eventKey="first">Events</Nav.Link>
-                    </Nav.Item>
-                    <Nav.Item>
-                      <Nav.Link eventKey="second">Awards</Nav.Link>
-
                     
-                    </Nav.Item>
-                    <Nav.Item>
-                      <Nav.Link eventKey="third">Tab 3</Nav.Link>
-                    </Nav.Item> */}
                   </Nav>
                   <Tab.Content id="slideInUp" className={isVisible ? "animate__animated animate__slideInUp" : ""}>
                     <Tab.Pane eventKey="first">
