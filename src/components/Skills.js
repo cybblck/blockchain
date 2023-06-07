@@ -89,15 +89,13 @@ Vijay Kumar Sharma<br></br>
 <a href="https://www.linkedin.com/in/vijaysharmacs/	">https://www.linkedin.com/in/vijaysharmacs</a>		<br></br>	
 </h6> */}
 </div>
-
+<hr></hr>
 <div className="why">
-<h6>Why Us</h6>
+<h3>Why Us</h3>
 <p>We prioritize your growth</p>
-<h6>Our Vision</h6>
+<h3>Our Vision</h3>
 <p>We believe in the work with quality and accuracy. We want to be recognized as the trusted, innovative, reliable, and user-friedly service provider in education sector</p>
-<h6>Our Mission</h6>
-
-
+<h3>Our Mission</h3>
 <p>Your growth is our mission. Our mission is to technologically educate each and every indiciduals</p>
 </div>
 
