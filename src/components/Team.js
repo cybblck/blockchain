@@ -55,7 +55,7 @@ export const Team = () => {
                 <h2>Our Team</h2>
                 <Tab.Container id="projects-tabs" defaultActiveKey="first">
                   <Nav variant="pills" className="nav-pills mb-5 justify-content-center align-items-center" id="pills-tab">
-                    <Nav.Item>
+                    {/* <Nav.Item>
                       <Nav.Link eventKey="first">Events</Nav.Link>
                     </Nav.Item>
                     <Nav.Item>
@@ -65,7 +65,7 @@ export const Team = () => {
                     </Nav.Item>
                     <Nav.Item>
                       <Nav.Link eventKey="third">Tab 3</Nav.Link>
-                    </Nav.Item>
+                    </Nav.Item> */}
                   </Nav>
                   <Tab.Content id="slideInUp" className={isVisible ? "animate__animated animate__slideInUp" : ""}>
                     <Tab.Pane eventKey="first">
