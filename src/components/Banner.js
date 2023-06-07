@@ -58,8 +58,11 @@ export const Banner = () => {
                 <h1>{`Start Your Blockchain Career `} <span className="txt-rotate" dataPeriod="1000" data-rotate='[ "Web Developer", "Web Designer" ]'><span className="wrap">{text}</span></span></h1>
                 <span className="tagline">Join the early adopters of Blockchain and boost your career</span>
 
-                  <p></p>
+                  <p>
+AP Blockchain<br></br>Revolutionising Blockchain
+</p>
                   <a href="contact.js"><button onClick={() => console.log('connect')}>View Programs <ArrowRightCircle size={25} /></button></a>
+
               </div>}
             </TrackVisibility>
           </Col>

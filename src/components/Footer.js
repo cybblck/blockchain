@@ -8,24 +8,30 @@ import navIcon3 from "../assets/img/nav-icon3.svg";
 export const Footer = () => {
   return (
     <footer className="footer">
+            <p>Copyright 2023. All Rights Reserved</p>
+
       <Container>
+
+
         <Row className="align-items-center">
+        <p>Copyright 2023. All Rights Reserved</p>
+
           <MailchimpForm />
+          <p>Copyright 2023. All Rights Reserved</p>
+
           <Col size={12} sm={6}>
+          <p>Copyright 2023. All Rights Reserved</p>
+
             <img src={logo} alt="Logo" />
-            <a href=""><p>mail: bjshobhit8@gmail.com</p></a>
-            <a><p>tel: +919022057986</p></a>
           </Col>
-           {/* <Col size={7} sm={4}>
-            <p>ddemo</p>
-          </Col> */}
-          <Col size={12} sm={0} className="text-center text-sm-end">
+          <Col size={12} sm={6} className="text-center text-sm-end">
             <div className="social-icon">
               <a href="#"><img src={navIcon1} alt="Icon" /></a>
               <a href="#"><img src={navIcon2} alt="Icon" /></a>
               <a href="#"><img src={navIcon3} alt="Icon" /></a>
             </div>
             <p>Copyright 2023. All Rights Reserved</p>
+
           </Col>
         </Row>
       </Container>
