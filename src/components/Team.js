@@ -1,10 +1,13 @@
 import { Container, Row, Col, Tab, Nav } from "react-bootstrap";
 import { ProjectCard } from "./ProjectCard";
-import projImg1 from "../assets/img/event1.jpeg";
-import projImg2 from "../assets/img/event2.jpeg";
-import projImg3 from "../assets/img/event3.jpeg";
-import projImg4 from "../assets/img/event4.jpeg";
-import projImg5 from "../assets/img/event5.jpeg";
+import projImg1 from "../assets/img/amit.jpg";
+import projImg2 from "../assets/img/omgi.jpg";
+import projImg3 from "../assets/img/shar.jpg";
+import projImg4 from "../assets/img/zee.jpg";
+import projImg5 from "../assets/img/pan.jpg";
+import projImg6 from "../assets/img/var.jpg";
+import projImg7 from "../assets/img/may.png";
+import projImg8 from "../assets/img/vij.png";
 import colorSharp2 from "../assets/img/color-sharp2.png";
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
@@ -19,29 +22,39 @@ export const Team = () => {
     },
     {
       title: "Dr. Omji Pandey",
-      description: "IIT Kanpur, University of Saskatchewan Senior Advisor",
+      description: "IIT Kanpur, University of Saskatchewan",
       imgUrl: projImg2,
     },
     {
-      title: "Deep Dive Into Decentralized Finance(DEFI)",
-      // description: "Design & Development",
+      title: "Dr. Sharad Kumar Yadav ",
+      description: "IISc Bangalore, IIT Madras, University of Surrey",
       imgUrl: projImg3,
     },
     {
-      title: "Faculty Development Programs",
-      // description: "Design & Development",
+      title: "Dr. Zeeshan Akhtar",
+      description: "IIT Kanpur",
       imgUrl: projImg4,
     },
     {
-      title: "Blockchain Center of Excellence",
-      // description: "Design & Development",
+      title: "Dr. Pankaj Kumar Mishra",
+      description: "IISc Bangalore, IIT kanpur",
       imgUrl: projImg5,
     },
     {
-      title: "Demo",
-      // description: "Design & Development",
-      imgUrl: projImg1,
+      title: "Dr. Varsha Lohani",
+      description: "IIT Kanpur",
+      imgUrl: projImg6,
     },
+    {
+        title: "Mayank Singh",
+        description: "VP at JPMorgan Chase & Co. | Tech Lead | React JS | Node JS | GraphQL | Automation Testing",
+        imgUrl: projImg7,
+      },
+      {
+        title: "Vijay Kumar Sharma",
+        description: "Trainer (Python programming, AI/Machine Learning/Data Science",
+        imgUrl: projImg8,
+      },
   ];
 
   return (
