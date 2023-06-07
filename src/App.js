@@ -7,9 +7,14 @@ import { Skills } from "./components/Skills";
 import { Events } from "./components/Events";
 
 import { Projects } from "./components/Projects";
+<<<<<<< HEAD
 import { Do } from "./components/Do";
 
 import { Team } from "./components/Team";
+=======
+import { Team } from "./components/Team";
+
+>>>>>>> dc98760 (team changes)
 import { Contact } from "./components/Contact";
 import { Footer } from "./components/Footer";
 
