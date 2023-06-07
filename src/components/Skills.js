@@ -78,7 +78,7 @@ export const Skills = () => {
                         <p>Indian Blockchain Institute (IBI), the training division of Snapper Future Tech was founded with the primary goal of developing a productive and efficient Blockchain talent pool for the industry. With this goal in mind, IBI provides an entire ecosystem for upskilling in Blockchain through its range of training services for individuals, corporates, and academic institutions.
 Our training offerings include NASSCOM accredited programs, tailored corporate programs, setting up a Blockchain Centre of Excellence, and faculty development programmes for academic institutions. Our experts are proficient in a variety of blockchain frameworks, including Ethereum, Hyperledger, Algorand, and Polygon. We are one of the few authorised Service Providers and Training Partners of Hyperledger in the entire world.</p> */}
                     <div className="why">
-                    <p>Leadership:-</p>
+                    {/* <p>Leadership:-</p>
 
                     <h6>
 Dr. Amit Kumar Vishwakarma <br></br>
@@ -87,7 +87,7 @@ Dr. Omji Pandey <br></br>
 <a href="linkedin.com/in/om-jee-pandey-b90054116/">linkedin.com/in/om-jee-pandey-b90054116</a>		<br></br>	
 Vijay Kumar Sharma<br></br>
 <a href="https://www.linkedin.com/in/vijaysharmacs/	">https://www.linkedin.com/in/vijaysharmacs</a>		<br></br>	
-</h6>
+</h6> */}
 </div>
 
 <div className="why">
