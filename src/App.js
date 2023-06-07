@@ -18,9 +18,13 @@ function App() {
       <NavBar />
       <Banner />
       <Projects />
+<<<<<<< HEAD
       <Events />
       <Skills />
       <Team />
+=======
+      <Skills />
+>>>>>>> d427370 (i completed expertise section and about us section and set all the images. remaining is services full section and some in contact us section)
        <Contact />
       <Footer />
     </div>

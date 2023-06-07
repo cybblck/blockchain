@@ -8,7 +8,11 @@ import navIcon3 from "../assets/img/nav-icon3.svg";
 export const Footer = () => {
   return (
     <footer className="footer">
+<<<<<<< HEAD
             {/* <p>Copyright 2023. All Rights Reserved</p> */}
+=======
+            <p>Copyright 2023. All Rights Reserved</p>
+>>>>>>> d427370 (i completed expertise section and about us section and set all the images. remaining is services full section and some in contact us section)
 
       <Container>
 
