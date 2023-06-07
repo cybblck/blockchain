@@ -8,7 +8,7 @@ import navIcon3 from "../assets/img/nav-icon3.svg";
 export const Footer = () => {
   return (
     <footer className="footer">
-            <p>Copyright 2023. All Rights Reserved</p>
+            {/* <p>Copyright 2023. All Rights Reserved</p> */}
 
       <Container>
 
