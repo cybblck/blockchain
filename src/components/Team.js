@@ -13,13 +13,13 @@ export const Team = () => {
 
   const team = [
     {
-      title: "Dr. Amit Kumar Vishwakarma<br>Director<br>IIT Kanpur, Tsinghua University Beijing",
-      // description: "Design & Development",
+      title: "Dr. Amit Kumar Vishwakarma",
+      description: "Director IIT Kanpur, Tsinghua University Beijing",
       imgUrl: projImg1,
     },
     {
-      title: "Certified Ethereum Developer Program",
-      // description: "Design & Development",
+      title: "Dr. Omji Pandey",
+      description: "IIT Kanpur, University of Saskatchewan Senior Advisor",
       imgUrl: projImg2,
     },
     {
