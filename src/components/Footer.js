@@ -13,7 +13,7 @@ export const Footer = () => {
           <MailchimpForm />
           <Col size={12} sm={6}>
             <img src={logo} alt="Logo" />
-            <a href=""><p>mail: ibi@snapperfuturetech.com</p></a>
+            <a href=""><p>mail: bjshobhit8@gmail.com</p></a>
             <a><p>tel: +919022057986</p></a>
           </Col>
            {/* <Col size={7} sm={4}>
