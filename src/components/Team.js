@@ -52,16 +52,7 @@ export const Team = () => {
             <TrackVisibility>
               {({ isVisible }) =>
               <div className={isVisible ? "animate__animated animate__fadeIn": ""}>
-                <h2>Expertise</h2>
-                <p>Blockchain Trainings<br></br>
-Blockchain Development<br></br>
-Artificail Intellegence <br></br>
-IoT Development<br></br>
-Web Design<br></br>
-Web Development<br></br>
-Fintech<br></br>
-Supply Chain<br></br>
-</p>
+                <h2>Our Team</h2>
                 <Tab.Container id="projects-tabs" defaultActiveKey="first">
                   <Nav variant="pills" className="nav-pills mb-5 justify-content-center align-items-center" id="pills-tab">
                     <Nav.Item>
@@ -80,7 +71,7 @@ Supply Chain<br></br>
                     <Tab.Pane eventKey="first">
                       <Row>
                         {
-                          teams.map((project, index) => {
+                          team.map((project, index) => {
                             return (
                               <ProjectCard
                                 key={index}
