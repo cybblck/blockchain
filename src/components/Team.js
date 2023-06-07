@@ -37,7 +37,7 @@ export const Team = () => {
             <div className="row">
                 <div className="col-12">
                     <div className="skill-bx wow zoomIn">
-                        <h2>About Us</h2>
+                        <h2>Our Team</h2>
                         <p>Trusted Partner</p>
 
 
