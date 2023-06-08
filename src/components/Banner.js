@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import headerImg from "../assets/img/header-img.svg";
+import headerImg from "../assets/img/nav.png";
 import { ArrowRightCircle } from 'react-bootstrap-icons';
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
@@ -58,10 +58,8 @@ export const Banner = () => {
                 <h1>{`Start Your Blockchain Career `} <span className="txt-rotate" dataPeriod="1000" data-rotate='[ "Web Developer", "Web Designer" ]'><span className="wrap">{text}</span></span></h1>
                 <span className="tagline">Join the early adopters of Blockchain and boost your career</span>
 
-                  <p>
-AP Blockchain<br></br>Revolutionising Blockchain
-</p>
-                  <a href="contact.js"><button onClick={() => console.log('connect')}>View Programs <ArrowRightCircle size={25} /></button></a>
+                 
+                  {/* <a href="contact.js"><button onClick={() => console.log('connect')}>View Programs <ArrowRightCircle size={25} /></button></a> */}
 
               </div>}
             </TrackVisibility>

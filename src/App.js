@@ -7,6 +7,8 @@ import { Skills } from "./components/Skills";
 import { Events } from "./components/Events";
 
 import { Projects } from "./components/Projects";
+import { Do } from "./components/Do";
+
 import { Team } from "./components/Team";
 import { Contact } from "./components/Contact";
 import { Footer } from "./components/Footer";
@@ -20,6 +22,7 @@ function App() {
       <Projects />
       <Events />
       <Skills />
+      <Do />
       <Team />
        <Contact />
       <Footer />

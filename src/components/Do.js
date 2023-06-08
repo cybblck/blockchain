@@ -15,7 +15,7 @@ import arrow1 from "../assets/img/arrow1.svg";
 import arrow2 from "../assets/img/arrow2.svg";
 import colorSharp from "../assets/img/color-sharp.png"
 
-export const Skills = () => {
+export const Do = () => {
   const responsive = {
     superLargeDesktop: {
       // the naming can be any, depends on you.
@@ -37,54 +37,17 @@ export const Skills = () => {
   };
 
   return (
-    <section className="skill" id="about">
+    
+    <section className="skill" id="what">
+        <br></br><br></br>
         <div className="container">
             <div className="row">
                 <div className="col-12">
                     <div className="skill-bx wow zoomIn">
-                        <h2>About Us</h2>
-                        <p>Trusted Partner</p>
+                        <h2>What We Do?</h2>
 
 
 
-                        <Carousel responsive={responsive} infinite={true} className="owl-carousel owl-theme skill-slider">
-                            <div className="item">
-                                <img src={meter1} alt="Image" />
-                                <h5>THUBA</h5>
-                            </div>
-                            {/* <div className="item">
-                                <img src={meter2} alt="Image" />
-                                <h5>YARNA Labs</h5>
-                            </div> */}
-                            <div className="item">
-                                <img src={meter4} alt="Image" />
-                                <h5>IIT Kanpur</h5>
-                            </div> 
-                            <div className="item">
-                                <img src={meter7} alt="Image" />
-                                <h5>Tsinghua University, Beijing</h5>
-                            </div>
-                            <div className="item">
-                                <img src={meter5} alt="Image" />
-                                <h5>Seth visambhar nath college, Lucknow</h5>
-                            </div>
-                            <div className="item">
-                                <img src={meter6} alt="Image" />
-                                <h5>ABES, Ghaziabad </h5>
-                            </div>
-                            <div className="item">
-                                <img src={meter2} alt="Image" />
-                                <h5>Udaan Skill Academy</h5>
-                            </div>
-                            <div className="item">
-                                <img src={meter3} alt="Image" />
-                                <h5>India Blockchain Alliance  </h5>
-                            </div>
-                            <div className="item">
-                                <img src={meter5} alt="Image" />
-                                <h5>Ms. Singh Academy (UK)  </h5>
-                            </div>
-                        </Carousel>
                         {/* <div className="table"> */}
     {/* <table>
         <tr>
@@ -128,12 +91,12 @@ Vijay Kumar Sharma<br></br>
 </div>
 <hr></hr>
 <div className="why">
-<h3>Why Us</h3>
-<p>We prioritize your growth</p>
-<h3>Our Vision</h3>
-<p>We believe in the work with quality and accuracy. We want to be recognized as the trusted, innovative, reliable, and user-friedly service provider in education sector</p>
-<h3>Our Mission</h3>
-<p>Your growth is our mission. Our mission is to technologically educate each and every indiciduals</p>
+<h3>Blockchain Training</h3>
+<p>Blockchain training aims to provide better technical education to new generation youth. Emerging technology like blockchain, Metaverse, NFT, etc. helps students understand the current technological advancement in Web3. Technology is emerging, so there will be many requirements in the market for jobs. As Web3 trainers, we provide the best education to students so they can compete in the market and get a job in this field.</p>
+<h3>AI, ML Training </h3>
+<p>AI, ML training aims to provide better technical education to new generation youth. Emerging technology like AI, ML, Metaverse, helps students understand the current technological advancement in Web3. Technology is emerging, so there will be many requirements in the market for jobs. As Web3 trainers, we provide the best education to students so they can compete in the market and get a job in this field.</p>
+<h3>Faculty Development</h3>
+<p>The goal of India's higher education system is to achieve sustainable development and faster growth rates, which might be made possible by the production, sharing, and use of knowledge. All levels of higher education in the nation are seeing a steady growth pattern characterised by the creation of new institutions and the enhancement of already existing ones. Over the next few years, there will be a significant demand for skilled instructors and faculty members, making it crucial for states to increase their institutional capacities in terms of both infrastructure and faculty members who are both qualified and trained.</p>
 </div>
 
                     </div>

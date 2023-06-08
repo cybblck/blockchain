@@ -53,7 +53,17 @@ export const Projects = () => {
               {({ isVisible }) =>
               <div className={isVisible ? "animate__animated animate__fadeIn": ""}>
                 <h2>Expertise</h2>
-                <ol>
+                <table>
+<tr>
+  <thead>Blockchain</thead>
+  
+
+</tr>
+<tbody>
+<tr>
+
+  <td>
+                <ul>
                 <li>Blockchain Trainings</li>
 <li>Blockchain Development</li>
 <li>Artificail Intellegence</li>
@@ -62,7 +72,10 @@ export const Projects = () => {
 <li>Web Development</li>
 <li>Fintech</li>
 <li>Supply Chain</li>
-</ol>
+</ul></td>
+
+</tr>
+</tbody></table>
 <br></br>
 <hr></hr>
                 <Tab.Container id="projects-tabs" defaultActiveKey="first">

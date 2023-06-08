@@ -1,13 +1,13 @@
 import { Container, Row, Col, Tab, Nav } from "react-bootstrap";
-import { ProjectCard } from "./ProjectCard";
-import projImg1 from "../assets/img/amit.jpg";
-import projImg2 from "../assets/img/omgi.jpg";
-import projImg3 from "../assets/img/shar.jpg";
-import projImg4 from "../assets/img/zee.jpg";
-import projImg5 from "../assets/img/pan.jpg";
-import projImg6 from "../assets/img/var.jpg";
-import projImg7 from "../assets/img/may.png";
-import projImg8 from "../assets/img/vij.png";
+import { ProjectCard } from "./ProjectCard1";
+import projImg1 from "../assets/img/amit.jpeg";
+import projImg2 from "../assets/img/omji.jpeg";
+import projImg3 from "../assets/img/shar.jpeg";
+import projImg4 from "../assets/img/zee.jpeg";
+import projImg5 from "../assets/img/pan.jpeg";
+import projImg6 from "../assets/img/var.jpeg";
+import projImg7 from "../assets/img/man.jpeg";
+import projImg8 from "../assets/img/vij.jpeg";
 import colorSharp2 from "../assets/img/color-sharp2.png";
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
@@ -16,43 +16,55 @@ export const Team = () => {
 
   const team = [
     {
-      title: "Dr. Amit Kumar Vishwakarma",
-      description: "Director IIT Kanpur, Tsinghua University Beijing ",
+      title: "Dr. Amit K. Vishwakarma",
+      about: "Director AP Blockchain",
+      description: "P.H.D. IIT Kanpur, Tsinghua University Beijing ",
       imgUrl: projImg1,
+    
     },
     {
       title: "Dr. Omji Pandey",
-      description: "IIT Kanpur, University of Saskatchewan",
+      about: "Senior Advisor AP Blockchain",
+      description: "P.H.D. IIT Kanpur, University of Saskatchewan",
       imgUrl: projImg2,
     },
     {
       title: "Dr. Sharad Kumar Yadav ",
-      description: "IISc Bangalore, IIT Madras, University of Surrey",
+      about: "Advisor AP Blockchain",
+      description: "P.H.D. IISc Bangalore, IIT Madras, University of Surrey",
       imgUrl: projImg3,
     },
     {
       title: "Dr. Zeeshan Akhtar",
-      description: "IIT Kanpur",
+      about: "Advisor AP Blockchain",
+
+      description: "P.H.D. IIT Kanpur",
       imgUrl: projImg4,
     },
     {
       title: "Dr. Pankaj Kumar Mishra",
-      description: "IISc Bangalore, IIT kanpur",
+      about: "Advisor AP Blockchain",
+      description: "P.H.D. IISc Bangalore, IIT kanpur",
       imgUrl: projImg5,
     },
     {
       title: "Dr. Varsha Lohani",
-      description: "IIT Kanpur",
+      about: "Advisor AP Blockchain",
+      description: "P.H.D. IIT Kanpur",
       imgUrl: projImg6,
     },
     {
         title: "Mayank Singh",
+        about: "Advisor AP Blockchain",
         description: "VP at JPMorgan Chase & Co. | Tech Lead | React JS | Node JS | GraphQL | Automation Testing",
         imgUrl: projImg7,
       },
       {
         title: "Vijay Kumar Sharma",
-        description: "Trainer (Python programming, AI/Machine Learning/Data Science",
+        description: "MTECH MNNIT Allahbad, Prayagraj",
+        about: "Expert",
+        about1: "(Python Programming, AI/ML/Data Science)",
+
         imgUrl: projImg8,
       },
   ];
