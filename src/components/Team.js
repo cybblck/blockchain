@@ -18,8 +18,9 @@ export const Team = () => {
     {
       title: "Dr. Amit K. Vishwakarma",
       about: "Director AP Blockchain",
-      description: ". IIT Kanpur, Tsinghua University Beijing ",
+      description: "Ph.D. IIT Kanpur, Tsinghua University, Beijing ",
       imgUrl: projImg1,
+      lnurl:"https://www.linkedin.com",
     
     },
     {
@@ -47,12 +48,12 @@ export const Team = () => {
       description: "Ph.D. IISc Bangalore, IIT kanpur",
       imgUrl: projImg5,
     },
-    {
-      title: "Dr. Varsha Lohani",
-      about: "Advisor AP Blockchain",
-      description: "Ph.D. IIT Kanpur",
-      imgUrl: projImg6,
-    },
+    // {
+    //   title: "Dr. Varsha Lohani",
+    //   about: "Advisor AP Blockchain",
+    //   description: "Ph.D. IIT Kanpur",
+    //   imgUrl: projImg6,
+    // },
     {
         title: "Mayank Singh",
         about: "Advisor AP Blockchain",

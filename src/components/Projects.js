@@ -5,6 +5,11 @@ import projImg2 from "../assets/img/event2.jpeg";
 import projImg3 from "../assets/img/event3.jpeg";
 import projImg4 from "../assets/img/event4.jpeg";
 import projImg5 from "../assets/img/event5.jpeg";
+
+import navIcon1 from '../assets/img/nav-icon1.svg';
+import navIcon2 from '../assets/img/nav-icon2.svg';
+import navIcon3 from '../assets/img/nav-icon3.svg';
+import navIcon4 from '../assets/img/icons8-youtube (1).svg';
 import colorSharp2 from "../assets/img/color-sharp2.png";
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
@@ -55,7 +60,7 @@ export const Projects = () => {
                 <h2>Expertise</h2>
                 <table>
 <tr>
-  <thead>Blockchain</thead>
+  {/* <thead>Blockchain</thead> */}
   
 
 </tr>
@@ -111,14 +116,23 @@ export const Projects = () => {
                       <p>Conference on “Use of Smart Contract in Public Procurement and Supply Chain" on 17th-18th March 2023                       <a href="https://www.ajnifm.ac.in/event/conference-%E2%80%9Cuse-smart-contract-public-procurement-and-supply-chain-17th-18th-march-2023">see more</a>
 </p>
 
-<p>safeguarding dual use material and data using blockchain technology application.<br></br> <a href="https://www.crdfglobal.org/">see more</a></p>
-<p>AEPC Japan India Industry Promotion Association. <br></br><a href="https://www.aepcindia.com/node">see more</a></p>
-<p>Tsinghua Energy Hub<br></br>
+<p align="justify">safeguarding dual use material and data using blockchain technology application.<br></br> <a href="https://www.crdfglobal.org/">see more</a></p>
+<p align="justify">AEPC Japan India Industry Promotion Association. <br></br><a href="https://www.aepcindia.com/node">see more</a></p>
+<p align="justify">Tsinghua Energy Hub<br></br>
 Tsinghua International Blockchain Association <br></br>
 <a href="https://www.linkedin.com/company/thu-tiba/about/">see more</a></p>
                     </Tab.Pane>
                     <Tab.Pane eventKey="third">
-                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque quam, quod neque provident velit, rem explicabo excepturi id illo molestiae blanditiis, eligendi dicta officiis asperiores delectus quasi inventore debitis quo.</p>
+                    <div className="why">
+                    <h3>Leadership</h3>
+                    <h5><div className="social-icon">
+                <a href="https://www.linkedin.com/in/dr-amit-vishwakarma-0a4b79bb/"><img src={navIcon1} alt="" /></a></div> Dr. Amit Kumar Vishwakarma</h5>
+                <h5><div className="social-icon">
+                <a href="https://linkedin.com/in/om-jee-pandey-b90054116/"><img src={navIcon1} alt="" /></a></div> Dr. Omji Pandey</h5>
+                <h5><div className="social-icon">
+                <a href="https://www.linkedin.com/in/vijaysharmacs/"><img src={navIcon1} alt="" /></a></div> Vijay Kumar Sharma</h5>
+</div>
+
                     </Tab.Pane>
                   </Tab.Content>
                 </Tab.Container>

@@ -5,6 +5,7 @@ import projImg2 from "../assets/img/event2.jpeg";
 import projImg3 from "../assets/img/event3.jpeg";
 import projImg4 from "../assets/img/event4.jpeg";
 import projImg5 from "../assets/img/event5.jpeg";
+
 import colorSharp2 from "../assets/img/color-sharp2.png";
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
@@ -104,7 +105,7 @@ Tsinghua International Blockchain Association <br></br>
 <a href="https://www.linkedin.com/company/thu-tiba/about/">see more</a></p>
                     </Tab.Pane>
                     <Tab.Pane eventKey="third">
-                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque quam, quod neque provident velit, rem explicabo excepturi id illo molestiae blanditiis, eligendi dicta officiis asperiores delectus quasi inventore debitis quo.</p>
+                      {/* <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque quam, quod neque provident velit, rem explicabo excepturi id illo molestiae blanditiis, eligendi dicta officiis asperiores delectus quasi inventore debitis quo.</p> */}
                     </Tab.Pane>
                   </Tab.Content>
                 </Tab.Container>

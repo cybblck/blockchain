@@ -5,6 +5,8 @@ import 'animate.css';
 import navIcon1 from '../assets/img/nav-icon1.svg';
 import navIcon2 from '../assets/img/nav-icon2.svg';
 import navIcon3 from '../assets/img/nav-icon3.svg';
+import navIcon4 from '../assets/img/icons8-youtube (1).svg';
+
 import TrackVisibility from 'react-on-screen';
 
 export const Contact = () => {
@@ -92,7 +94,7 @@ export const Contact = () => {
               <tr>
                 <th>Phone:&nbsp;&nbsp;</th>
 <th>
-+919651700815, 
++919651700815 
 +919450767356
 
 </th>
@@ -100,10 +102,20 @@ export const Contact = () => {
             </tr>
             </table>
             <div className="social-icon">
-                <a href="#"><img src={navIcon1} alt="" /></a>
-                <a href="#"><img src={navIcon2} alt="" /></a>
-                <a href="#"><img src={navIcon3} alt="" /></a>
+                <a href="https://www.linkedin.com/in/dr-amit-vishwakarma-0a4b79bb/"><img src={navIcon1} alt="" /></a>
+                <a href="https://www.youtube.com/channel/UCUSaXraLOu5uJUknOrvrdJQ"><img src={navIcon4} alt="" /></a>
+                {/* <a href="#"><img src={navIcon3} alt="" /></a> */}
               </div>
+              <br></br>              <br></br>
+              <br></br>
+              <br></br>
+              <br></br>
+              <br></br>
+              <br></br>
+              <br></br>
+              <br></br>
+              <br></br>
+
                 </form>
               </div>
               }

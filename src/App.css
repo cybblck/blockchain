@@ -618,8 +618,9 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   margin-top: 20px;
 }
 .why{
-  margin-top:40px;
   text-align: left;
+  margin-top:40px;
+
 }
 .verticalLine {
   border-left: thick solid #ff0000;
