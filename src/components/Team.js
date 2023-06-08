@@ -17,7 +17,7 @@ export const Team = () => {
   const team = [
     {
       title: "Dr. Amit Kumar Vishwakarma",
-      description: "Director IIT Kanpur, Tsinghua University Beijing ",
+      description: "Director IIT Kanpur, Tsinghua University Beijing",
       imgUrl: projImg1,
     },
     {
@@ -58,7 +58,7 @@ export const Team = () => {
   ];
 
   return (
-    <section className="project" id="team">
+    <section className="project" id="blog">
       <Container>
         <Row>
           <Col size={12}>

@@ -13,6 +13,7 @@ export const Projects = () => {
 
   const projects = [
 <<<<<<< HEAD
+<<<<<<< HEAD
     // {
     //   title: "Blockchain Introductory Program",
     //   // description: "Design & Development",
@@ -44,6 +45,8 @@ export const Projects = () => {
     //   imgUrl: projImg1,
     // },
 =======
+=======
+>>>>>>> 21ba341 (Revert "changes by prakhar")
     {
       title: "Blockchain Introductory Program",
       // description: "Design & Development",
@@ -74,7 +77,10 @@ export const Projects = () => {
       // description: "Design & Development",
       imgUrl: projImg1,
     },
+<<<<<<< HEAD
 >>>>>>> d427370 (i completed expertise section and about us section and set all the images. remaining is services full section and some in contact us section)
+=======
+>>>>>>> 21ba341 (Revert "changes by prakhar")
   ];
 
   return (
@@ -86,6 +92,7 @@ export const Projects = () => {
               {({ isVisible }) =>
               <div className={isVisible ? "animate__animated animate__fadeIn": ""}>
                 <h2>Expertise</h2>
+<<<<<<< HEAD
 <<<<<<< HEAD
                 <ol>
                 <li>Blockchain Trainings</li>
@@ -100,6 +107,8 @@ export const Projects = () => {
 <br></br>
 <hr></hr>
 =======
+=======
+>>>>>>> 21ba341 (Revert "changes by prakhar")
                 <p>Blockchain Trainings<br></br>
 Blockchain Development<br></br>
 Artificail Intellegence <br></br>
@@ -109,9 +118,12 @@ Web Development<br></br>
 Fintech<br></br>
 Supply Chain<br></br>
 </p>
+<<<<<<< HEAD
 >>>>>>> d427370 (i completed expertise section and about us section and set all the images. remaining is services full section and some in contact us section)
+=======
+>>>>>>> 21ba341 (Revert "changes by prakhar")
                 <Tab.Container id="projects-tabs" defaultActiveKey="first">
-                  {/* <Nav variant="pills" className="nav-pills mb-5 justify-content-center align-items-center" id="pills-tab">
+                  <Nav variant="pills" className="nav-pills mb-5 justify-content-center align-items-center" id="pills-tab">
                     <Nav.Item>
                       <Nav.Link eventKey="first">Events</Nav.Link>
                     </Nav.Item>
@@ -123,7 +135,7 @@ Supply Chain<br></br>
                     <Nav.Item>
                       <Nav.Link eventKey="third">Tab 3</Nav.Link>
                     </Nav.Item>
-                  </Nav> */}
+                  </Nav>
                   <Tab.Content id="slideInUp" className={isVisible ? "animate__animated animate__slideInUp" : ""}>
                     <Tab.Pane eventKey="first">
                       <Row>

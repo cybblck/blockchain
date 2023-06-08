@@ -4,8 +4,6 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import { NavBar } from "./components/NavBar";
 import { Banner } from "./components/Banner";
 import { Skills } from "./components/Skills";
-import { Events } from "./components/Events";
-
 import { Projects } from "./components/Projects";
 import { Team } from "./components/Team";
 import { Contact } from "./components/Contact";
@@ -19,7 +17,10 @@ function App() {
       <Banner />
       <Projects />
 <<<<<<< HEAD
+<<<<<<< HEAD
       <Events />
+=======
+>>>>>>> 21ba341 (Revert "changes by prakhar")
       <Skills />
       <Team />
 =======

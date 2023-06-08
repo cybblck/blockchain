@@ -144,12 +144,13 @@ Vijay Kumar Sharma<br></br>
 <<<<<<< HEAD
 </h6> */}
 </div>
-<hr></hr>
+
 <div className="why">
-<h3>Why Us</h3>
+<h6>Why Us</h6>
 <p>We prioritize your growth</p>
-<h3>Our Vision</h3>
+<h6>Our Vision</h6>
 <p>We believe in the work with quality and accuracy. We want to be recognized as the trusted, innovative, reliable, and user-friedly service provider in education sector</p>
+<<<<<<< HEAD
 <h3>Our Mission</h3>
 =======
 </h6>
@@ -164,6 +165,11 @@ Vijay Kumar Sharma<br></br>
 
 
 >>>>>>> d427370 (i completed expertise section and about us section and set all the images. remaining is services full section and some in contact us section)
+=======
+<h6>Our Mission</h6>
+
+
+>>>>>>> 21ba341 (Revert "changes by prakhar")
 <p>Your growth is our mission. Our mission is to technologically educate each and every indiciduals</p>
 </div>
 
