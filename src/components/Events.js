@@ -13,32 +13,32 @@ export const Events = () => {
 
   const projects = [
     {
-      title: "Blockchain Introductory Program",
+      // title: "Blockchain Introductory Program",
       // description: "Design & Development",
       imgUrl: projImg1,
     },
     {
-      title: "Certified Ethereum Developer Program",
+      // title: "Certified Ethereum Developer Program",
       // description: "Design & Development",
       imgUrl: projImg2,
     },
     {
-      title: "Deep Dive Into Decentralized Finance(DEFI)",
+      // title: "Deep Dive Into Decentralized Finance(DEFI)",
       // description: "Design & Development",
       imgUrl: projImg3,
     },
     {
-      title: "Faculty Development Programs",
+      // title: "Faculty Development Programs",
       // description: "Design & Development",
       imgUrl: projImg4,
     },
     {
-      title: "Blockchain Center of Excellence",
+      // title: "Blockchain Center of Excellence",
       // description: "Design & Development",
       imgUrl: projImg5,
     },
     {
-      title: "Demo",
+      // title: "Demo",
       // description: "Design & Development",
       imgUrl: projImg1,
     },

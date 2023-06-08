@@ -18,39 +18,39 @@ export const Team = () => {
     {
       title: "Dr. Amit K. Vishwakarma",
       about: "Director AP Blockchain",
-      description: "P.H.D. IIT Kanpur, Tsinghua University Beijing ",
+      description: ". IIT Kanpur, Tsinghua University Beijing ",
       imgUrl: projImg1,
     
     },
     {
       title: "Dr. Omji Pandey",
       about: "Senior Advisor AP Blockchain",
-      description: "P.H.D. IIT Kanpur, University of Saskatchewan",
+      description: "Ph.D. IIT Kanpur, University of Saskatchewan",
       imgUrl: projImg2,
     },
     {
       title: "Dr. Sharad Kumar Yadav ",
       about: "Advisor AP Blockchain",
-      description: "P.H.D. IISc Bangalore, IIT Madras, University of Surrey",
+      description: "Ph.D. IISc Bangalore, IIT Madras, University of Surrey",
       imgUrl: projImg3,
     },
     {
       title: "Dr. Zeeshan Akhtar",
       about: "Advisor AP Blockchain",
 
-      description: "P.H.D. IIT Kanpur",
+      description: "Ph.D. IIT Kanpur",
       imgUrl: projImg4,
     },
     {
       title: "Dr. Pankaj Kumar Mishra",
       about: "Advisor AP Blockchain",
-      description: "P.H.D. IISc Bangalore, IIT kanpur",
+      description: "Ph.D. IISc Bangalore, IIT kanpur",
       imgUrl: projImg5,
     },
     {
       title: "Dr. Varsha Lohani",
       about: "Advisor AP Blockchain",
-      description: "P.H.D. IIT Kanpur",
+      description: "Ph.D. IIT Kanpur",
       imgUrl: projImg6,
     },
     {
@@ -61,9 +61,9 @@ export const Team = () => {
       },
       {
         title: "Vijay Kumar Sharma",
-        description: "MTECH MNNIT Allahbad, Prayagraj",
-        about: "Expert",
-        about1: "(Python Programming, AI/ML/Data Science)",
+        description: "M.Tech MNNIT Allahbad, Prayagraj",
+        about1: "Expert- Python Programming/AI/ML/Data Science",
+        about: "Advisor AP Blockchain",
 
         imgUrl: projImg8,
       },
